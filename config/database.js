@@ -26,7 +26,6 @@ module.exports = ({ env }) => ({
       connector: "mongoose",
       settings: {
         uri: env("DATABASE_URI"),
-        database: "strapi-cms-product",
       },
       options: {
         ssl: true,
@@ -34,3 +33,4 @@ module.exports = ({ env }) => ({
     },
   },
 });
+
